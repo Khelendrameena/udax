@@ -1,0 +1,88 @@
+{
+  "test_file": "test.mp4",
+  "test_size": 152908,
+  "sha256": "4ba3e37ea3371e76c4ec2e83ec69bbc5244a0cc58154e8b308e4a499292f2120",
+  "results": [
+    {
+      "test": "A",
+      "method": "Original (no compression)",
+      "size": 152908,
+      "ratio": 1.0,
+      "enc_s": 0.0,
+      "dec_s": 0.0,
+      "sha_ok": true
+    },
+    {
+      "test": "B",
+      "method": "Zstandard whole-file, level 3",
+      "size": 148596,
+      "ratio": 0.971800036623329,
+      "enc_s": 0.01,
+      "dec_s": 0.0,
+      "sha_ok": true
+    },
+    {
+      "test": "B",
+      "method": "Zstandard whole-file, level 10",
+      "size": 146160,
+      "ratio": 0.955868888481963,
+      "enc_s": 0.009,
+      "dec_s": 0.0,
+      "sha_ok": true
+    },
+    {
+      "test": "B",
+      "method": "Zstandard whole-file, level 19",
+      "size": 145503,
+      "ratio": 0.9515721871975306,
+      "enc_s": 0.037,
+      "dec_s": 0.0,
+      "sha_ok": true
+    },
+    {
+      "test": "C",
+      "method": "UDAX chunks 64 KB (3 neural / 0 raw)",
+      "size": 147182,
+      "ratio": 0.9625526460355246,
+      "enc_s": 61.32,
+      "dec_s": 63.47,
+      "sha_ok": true
+    },
+    {
+      "test": "D",
+      "method": "UDAX chunks 256 KB (1 neural / 0 raw)",
+      "size": 147078,
+      "ratio": 0.9618724984958276,
+      "enc_s": 63.62,
+      "dec_s": 62.91,
+      "sha_ok": true
+    },
+    {
+      "test": "E",
+      "method": "UDAX chunks 1024 KB (1 neural / 0 raw)",
+      "size": 147078,
+      "ratio": 0.9618724984958276,
+      "enc_s": 63.62,
+      "dec_s": 62.82,
+      "sha_ok": true
+    },
+    {
+      "test": "F",
+      "method": "UDAX chunks 4096 KB (1 neural / 0 raw)",
+      "size": 147078,
+      "ratio": 0.9618724984958276,
+      "enc_s": 63.62,
+      "dec_s": 63.02,
+      "sha_ok": true
+    },
+    {
+      "test": "G",
+      "method": "UDAX chunks 16384 KB (1 neural / 0 raw)",
+      "size": 147078,
+      "ratio": 0.9618724984958276,
+      "enc_s": 63.62,
+      "dec_s": 61.97,
+      "sha_ok": true
+    }
+  ]
+}
